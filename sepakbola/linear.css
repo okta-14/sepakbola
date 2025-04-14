@@ -1,0 +1,6 @@
+.linear{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient( #AA60C8 40%,#D69ADE 30%, #EABDE6 20%,#FFDFEF 10%);
+    box-shadow: ;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach</title>
+</head>
+<style>
+    .kotak1{
+        margin-top: 100px;
+        width: 0px;
+        height: 50px;
+        line-height: 70px;
+        animation: panjang 1s  forwards;
+        color: white;
+    }
+    .kotak2{
+        margin-top: 20px;
+        width: 0px;
+        line-height: 70px;
+        height: 50px;
+        animation: sedang 1s forwards ;
+        color: white;
+    }
+    .kotak3{
+        line-height: 70px;
+        margin-top: 20px;
+        width: 0px;
+        height: 50px;
+        animation: pendek 1s forwards;
+        color: white;
+    }
+
+    @keyframes panjang{
+        0%{
+            width: 0px;
+            height: 100px;
+            background-color: rgb(5, 79, 44);
+            font-size: 0px;
+        }
+        100%{
+            margin-left: -60px;
+            border-radius: 90px;
+            width: 700px;
+            height: 70px;
+            background-color: rgb(5, 79, 44);
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+    @keyframes sedang{
+        0%{
+            width: 0px;
+            height: 100px;
+            background-color: rgb(5, 79, 44);
+            font-size: 0px;
+        }
+        100%{
+            margin-left: -60px;
+            border-radius: 90px;
+            width: 600px;
+            height: 70px;
+            background-color:#629181;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+    @keyframes pendek{
+        0%{
+            width: 0px;
+            height: 100px;
+            background-color: rgb(5, 79, 44);
+            font-size: 0px;
+        }
+        100%{
+            margin-left: -60px;
+            border-radius: 90px;
+            width: 500px;
+            height: 70px;
+            background-color: rgb(5, 79, 44);
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+
+    .tulisan{
+        width:400px;
+        height: 200px;
+       animation: tulis 1s forwards;
+       margin-right: 50px;
+       color: white;
+    }
+    @keyframes tulis{
+        0%{
+            width:400px;
+            height: 400px;
+            margin-top: 300px;
+        }
+        100%{
+            
+            width:400px;
+            height:200px;
+            margin-top: 100px;
+        }
+    }
+
+    
+</style>
+<body style="margin: 0px; box-sizing: border-box;font-family: sans-serif; background-color: hwb(160 13% 66%);">
+        <div  style="background-color: #629181; width: 100%; height: 50px; float: left;">
+        <div style="float: left; font-size: 20px; margin-top: 20px; margin-left: 20px; font-weight: bold; color: white;"> DUNIA BOLA</div>
+        <div style="float: left;margin-left:750px; margin-top: 15px;  font-size: 13px;"><a href="about.html" style="text-decoration: none; color: white;">About Our Traning</a></div>
+            <div style="float: left;margin-left: 20px; margin-top: 15px;  font-size: 13px;"><a href="coach.html" style="text-decoration: none; color: white;">Coach</a> </div>
+            <div style="float: left;margin-left: 20px; margin-top: 15px;  font-size: 13px;"><a href="galeri.html" style="text-decoration: none; color: white;">Galery</a></div>
+            <button  style="float: left ; margin-top: 10px; margin-left: 20px; width:70px;border-radius: 30px; border: none; height: 30px; transition: 1s; color: hwb(160 13% 66%)" class="b1"><a href="daftar.html" style="text-decoration: none; color:black;  transition: 1s;" class="sibal" >Daftar</a></button>
+            <div style="clear: both">
+        </div>
+        <div style="float: left;">
+        <div class="kotak1"></div>
+        <div class="kotak2"></div>
+        <div class="kotak3"></div>
+        </div>
+        <div class="tulisan" style=" float: right;">
+            <div style="font-size: 30px;  margin-bottom: 10px;">Daftar Coach Kami</div>
+            <div style="float: left ;"> |<br> | <br>| <br> |</div>
+            <div style="float: left; font-size: 12px; margin-left: 5px; margin-top: px; text-align: left; width: 200px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum distinctio accusantium autem dolores doloribus nobis praesentium quisquam omnis illo.</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div style="width: 400px; height: 300px; background-size: cover; background-image: url(../bola_gambar/Susunan_Pelatih_Timnas_Sepakbola_Indonesia_2020-removebg-preview.png); margin-top: 200px ; float: left;"></div>
+        <div style="width: 500px; float: left; margin-top: 250px;"><b> Coach Shin Tae-yong </b> <br>
+        Umur:54 tahun <br>
+        Asal:Korsel <br>
+        Prestasi:Menang Penghargaan Pemain Muda Terbaik Liga K <br></div>
+    <div style="clear: both;"></div>
+    <div style="width: 500px; float: left; margin-top:100px; margin-left: 35%;"><b> Coach Shin Tae-yong </b> <br>
+        Umur:54 tahun <br>
+        Asal:Korsel <br>
+        Prestasi:Menang Penghargaan Pemain Muda Terbaik Liga K <br></div>
+        <div style="width: 400px; height: 300px; background-size: cover; background-image: url(../bola_gambar/Susunan_Pelatih_Timnas_Sepakbola_Indonesia_2020-removebg-preview.png); margin-top: 50px ; float: left; margin-left: -150px; margin-bottom: 80px;"></div>
+        <div style="clear: both;"></div>
+        <div style="background-color: black; color: white; width: 100%; height: 280px; padding-top: 50px;">
+            <table style="width: 90%; margin-left: 5%;" >
+                <tr>
+                    <td style="width:30% ; font-size: 20px; text-align: center;">Akademi</td>
+                    <td style="width:30% ; font-size: 20px; text-align: center;">Sonsor</td> 
+                    <td style="width:30% ; font-size: 20px; text-align: center;">Fasilitas</td>
+                </tr>
+                <tr>
+                    <td style="width:30% ;text-align: center; font-size:12px;color: rgb(174, 171, 171);">Akademi Pemula</td>
+                    <td style="width:30%; text-align: center; font-size:12px;color: rgb(174, 171, 171);">SMKN 1 Sukawati</td>
+                    <td style="width:30%; text-align: center; font-size:12px;color: rgb(174, 171, 171);">Lapangan</td>
+                </tr>
+                <tr>
+                    <td style="width:30% ;text-align: center; font-size:12px;color: rgb(174, 171, 171);">Akademi Lanjutan</td>
+                    <td style="width:30%; text-align: center; font-size:12px;color: rgb(174, 171, 171);">Bapakku</td>
+                    <td style="width:30%; text-align: center; font-size:12px;color: rgb(174, 171, 171);">Peralatan Bermain Bola</td>
+                </tr>
+                <tr>
+                    <td style="width:30% ;text-align: center; font-size:12px;color: rgb(174, 171, 171);">Akademi Khusus</td>
+                    <td style="width:30%; text-align: center; font-size:12px;color: rgb(174, 171, 171);">Ibuku</td>
+                    <td style="width:30%; text-align: center; font-size:12px;color: rgb(174, 171, 171);">Coach</td>
+                </tr>
+            </table>
+        
+            <center>
+            <table style="margin-top: 80px;">
+                <tr >
+                    <td style="text-align: center; color: white; font-size: 30px; font-family: cursive;">DUNIA BOLA</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; color:white; font-size: 20px; font-family:cursive;">academy</td>
+                </tr>
+            </table>
+            </center>
+        </div>  
+</body>
+</html>
